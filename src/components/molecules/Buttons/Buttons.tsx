@@ -2,18 +2,18 @@ import React from "react";
 import Button from "@mui/material/Button";
 import { makeStyles } from "@mui/styles";
 
-const useStyles = makeStyles({
-  connectButton: {
-    width: "296px",
-    height: "44px",
-    backgroundColor: "rgba(44, 224, 128, 1)",
-    borderRadius: 0,
-    border: "none",
-    "&:hover": {
-      backgroundColor: "rgba(0, 194, 99, 1)",
-    },
-  },
-});
+// const useStyles = makeStyles({
+//   connectButton: {
+//     width: "296px",
+//     height: "44px",
+//     backgroundColor: "rgba(44, 224, 128, 1)",
+//     borderRadius: 0,
+//     border: "none",
+//     "&:hover": {
+//       backgroundColor: "rgba(0, 194, 99, 1)",
+//     },
+//   },
+// });
 
 interface Props {
   color?:
@@ -37,14 +37,14 @@ interface Props {
 }
 
 const Buttons = (props: Props) => {
-  const classes = useStyles();
+//  const classes = useStyles();
   return (
     <Button
       variant={props.variant}
       color={props.color}
       disabled={props.disabled}
       size={props.size}
-      className={classes.connectButton}
+     // className={classes.connectButton}
       href={props.href}
       style={props.style}
       onClick={props.onClick}

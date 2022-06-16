@@ -106,7 +106,7 @@
       "read": "1.9k reads",
       "image": "images/coverImages/eatBetterFeelBetter.svg",
       "state": {
-        "isFinished": false,
+        "isFinished": true,
         "isTrending": false,
         "justAdded": true,
         "isFeatured": false
