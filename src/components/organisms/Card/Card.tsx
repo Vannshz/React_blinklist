@@ -124,7 +124,7 @@ const useStyles = makeStyles({
   addButton: {
     width: "100%",
     height: "52px",
-  },
+  }
 });
 
 interface Props {
@@ -142,6 +142,9 @@ interface Props {
   value: number;
   id?: number;
 } 
+
+
+
 
 const Card = (props: Props) => {
   const [mouseState, setMouseState] = useState(false);
@@ -311,6 +314,7 @@ const Card = (props: Props) => {
               onClick={() => addToCurrentlyReading}
             >
               <IconTypography
+               
                 iconSrc={<Add style={iconStyle} />}
                 variant="body1"
                 title="Add to library"
